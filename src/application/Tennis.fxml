@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #5e5656;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TennisController">
+   <children>
+      <ImageView fitHeight="188.0" fitWidth="255.0" layoutX="296.0" layoutY="246.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/103075177_390462391880738_5886237786670016518_n.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="384.0" fitWidth="269.0" layoutX="14.0" layoutY="33.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/103880476_687980388663062_8036449725927097787_n.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="170.0" fitWidth="269.0" layoutX="296.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Image/104421571_2669579496607185_5374759686877874502_n.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="142.0" layoutY="429.0" mnemonicParsing="false" onAction="#Nadal" style="-fx-background-color: #58668b;" text="Info" />
+      <Button layoutX="405.0" layoutY="442.0" mnemonicParsing="false" onAction="#Novak" style="-fx-background-color: #58668b;" text="Info" />
+      <Button layoutX="405.0" layoutY="213.0" mnemonicParsing="false" onAction="#Federer" style="-fx-background-color: #58668b;" text="Info" />
+      <Button fx:id="btnStart" layoutX="577.0" layoutY="20.0" mnemonicParsing="false" onAction="#Start" style="-fx-background-color: #58668b;" text="Početak" />
+   </children>
+</AnchorPane>

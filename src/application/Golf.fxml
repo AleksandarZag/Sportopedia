@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #bdeaee;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GolfController">
+   <children>
+      <ImageView fitHeight="168.0" fitWidth="323.0" layoutX="23.0" layoutY="26.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/104825500_259136145361463_83734844838702766_n.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="335.0" fitWidth="250.0" layoutX="366.0" layoutY="73.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Image/104750762_666664780592615_6375422581732860167_n.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="192.0" fitWidth="415.0" layoutX="23.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Image/105311141_948930308902659_1848337849222106602_n.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnJack" layoutX="159.0" layoutY="202.0" mnemonicParsing="false" onAction="#Jack" style="-fx-background-color: #76b4bd;" text="Info" />
+      <Button fx:id="btnPhil" layoutX="159.0" layoutY="441.0" mnemonicParsing="false" onAction="#Phil" style="-fx-background-color: #76b4bd;" text="Info" />
+      <Button fx:id="btnTiger" layoutX="473.0" layoutY="429.0" mnemonicParsing="false" onAction="#Tiger" style="-fx-background-color: #76b4bd;" text="Info" />
+      <Button fx:id="btnStart" layoutX="555.0" layoutY="26.0" mnemonicParsing="false" onAction="#Start" style="-fx-background-color: #76b4bd;" text="Početak" />
+   </children>
+</AnchorPane>
